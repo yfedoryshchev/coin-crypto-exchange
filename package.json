@@ -1,0 +1,27 @@
+{
+  "name": "coin-crypto-exchange",
+  "version": "2.0.0",
+  "description": "A lightweight library for fetching cryptocurrency prices and converting between cryptocurrencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yfedoryshchev/coin-crypto-exchange"
+  },
+  "keywords": ["crypto", "currency", "exchange", "api"],
+  "author": "Artem Koval",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "crypto-js": "^4.1.1",
+    "big.js": "^6.1.1",
+    "lodash": "^4.17.21",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
